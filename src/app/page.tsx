@@ -11,8 +11,8 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link href="/">
             <div className="flex items-center gap-3">
-              <img src="/logo2.svg" alt="Bella Casa Logo" className="w-14 h-14" />
-              <h1 className="text-lg md:text-2xl font-bold text-slate-900">
+              <img src="/logo2.svg" alt="Bella Casa Logo" className="w-10 sm:w-14 h-10 sm:h-14" />
+              <h1 className="sm:text-2xl font-bold text-slate-900">
                 Bella Casa Inspections
               </h1>
             </div>

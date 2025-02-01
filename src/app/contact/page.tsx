@@ -63,13 +63,13 @@ ${formData.message}
       {/* Header */}
       <header className="border-b bg-white/80 backdrop-blur-sm fixed w-full z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/">
-          <div className="flex items-center gap-3">
-            <img src="/logo2.svg" alt="Bella Casa Logo" className="w-14 h-14" />
-            <h1 className="text-lg md:text-2xl font-bold text-slate-900">
-              Bella Casa Inspections
-            </h1>
-          </div>
+          <Link href="/">
+            <div className="flex items-center gap-3">
+              <img src="/logo2.svg" alt="Bella Casa Logo" className="w-14 h-14" />
+              <h1 className="text-lg md:text-2xl font-bold text-slate-900">
+                Bella Casa Inspections
+              </h1>
+            </div>
           </Link>
           <nav>
             <Link href="/contact">
@@ -84,16 +84,13 @@ ${formData.message}
         <div className="max-w-4xl mx-auto mt-10">
           <Card>
             <CardHeader>
-              <CardTitle>Contact Us</CardTitle>
+              <CardTitle><div className="text-3xl">Contact Us</div></CardTitle>
               <CardDescription>
                 Schedule your wind mitigation inspection today
               </CardDescription>
             </CardHeader>
             <CardContent>
-           
-              
               <div className="grid grid-cols-1 gap-8">
-
                 {/* Contact Form */}
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
@@ -153,18 +150,26 @@ ${formData.message}
                     <p className="text-red-600 text-sm">There was an error. Please try again.</p>
                   )}
                 </form>
-              </div>
 
-              <div className="text-center mb-8 mt-5">
-                <div className="inline-flex items-center gap-8 justify-center bg-slate-50 rounded-lg p-6">
-                  <div className="flex items-center gap-3">
-                    <Phone className="h-6 w-6 text-slate-600" />
-                    <div>
-                      <p className="text-sm text-slate-600 mb-1">Call Us</p>
-                      <p className="font-semibold">504-810-9282</p>
+                <div className="relative">
+                  <div className="absolute inset-0 flex items-center">
+                    <div className="w-full border-t border-gray-300"></div>
+                  </div>
+                  <div className="relative flex justify-center text-sm">
+                    <span className="bg-white px-4 text-gray-500">Or</span>
+                  </div>
+                </div>
+
+                <div className="text-center">
+                  <div className="inline-flex items-center gap-8 justify-center bg-slate-50 rounded-lg p-6">
+                    <div className="flex items-center gap-3">
+                      <Phone className="h-6 w-6 text-slate-600" />
+                      <div>
+                        <p className="text-sm text-slate-600 mb-1">Call Us</p>
+                        <p className="font-semibold">504-810-9282</p>
+                      </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
             </CardContent>
