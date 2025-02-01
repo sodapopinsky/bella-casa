@@ -8,7 +8,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Phone, Mail, Home } from "lucide-react"
+import { Phone } from "lucide-react"
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -51,6 +51,7 @@ ${formData.message}
         message: "",
       })
     } catch (error) {
+      console.log(error)
       setSubmitStatus("error")
     } finally {
       setIsSubmitting(false)

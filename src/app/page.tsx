@@ -1,7 +1,7 @@
 // src/app/page.tsx
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 
 export default function Home() {
   return (
@@ -99,7 +99,7 @@ export default function Home() {
           <h3 className="text-3xl font-bold mb-8">About Our Services</h3>
           <div className="prose prose-slate max-w-none">
             <p className="text-lg mb-6">
-              Wind mitigation inspection is a detailed assessment of your home's wind-resistant features. The inspection
+              Wind mitigation inspection is a detailed assessment of your home&apos;s wind-resistant features. The inspection
               takes roughly an hour and identifies specific construction aspects that help reduce losses in the event of a windstorm.
             </p>
             <p className="text-lg mb-6">
