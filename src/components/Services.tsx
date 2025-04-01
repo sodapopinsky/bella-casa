@@ -1,4 +1,3 @@
-
 import { 
   ClipboardCheck, 
   HomeIcon, 
@@ -69,7 +68,7 @@ const Services = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="heading-lg mb-4">Our Wind Mitigation Inspection Process</h2>
           <p className="text-bella-slate text-lg">
-            Wind mitigation inspection is a detailed assessment of your home's wind-resistant 
+            Wind mitigation inspection is a detailed assessment of your home&apos;s wind-resistant 
             features. The inspection takes roughly an hour and identifies specific construction 
             aspects that help reduce losses in the event of a windstorm.
           </p>

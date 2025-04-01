@@ -1,6 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { ShieldCheck } from "lucide-react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -35,11 +35,12 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="hidden md:block rounded-lg overflow-hidden shadow-xl">
-            <img 
+          <div className="hidden md:block rounded-lg overflow-hidden shadow-xl relative h-[400px]">
+            <Image 
               src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2940&auto=format&fit=crop"
               alt="House inspection" 
-              className="w-full h-[400px] object-cover"
+              fill
+              className="object-cover"
             />
           </div>
         </div>
