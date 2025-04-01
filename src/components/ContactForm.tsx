@@ -106,7 +106,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium text-bella-navy">Service Area</h3>
-                    <p className="text-bella-slate">Greater New Orleans area</p>
+                    <p className="text-bella-slate">Greater New Orleans and Northshore areas</p>
                   </div>
                 </div>
               </div>

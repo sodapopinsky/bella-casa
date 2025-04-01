@@ -10,19 +10,19 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Bella Casa Inspections | Wind Mitigation Inspections New Orleans',
+    default: 'Bella Casa Inspections | Wind Mitigation Inspections New Orleans & Northshore',
     template: '%s | Bella Casa Inspections'
   },
-  description: 'Professional wind mitigation inspections in Greater New Orleans. Save thousands on home insurance with our certified inspections. Licensed and insured inspector serving Louisiana.',
-  keywords: ['wind mitigation inspection', 'home insurance savings', 'New Orleans inspector', 'Louisiana home inspection', 'wind mitigation survey', 'insurance premium reduction'],
+  description: 'Professional wind mitigation inspections in Greater New Orleans and Northshore areas. Save thousands on home insurance with our certified inspections. Licensed and insured inspector serving Louisiana.',
+  keywords: ['wind mitigation inspection', 'home insurance savings', 'New Orleans inspector', 'Northshore inspector', 'Louisiana home inspection', 'wind mitigation survey', 'insurance premium reduction'],
   authors: [{ name: 'Al Spitale' }],
   creator: 'Al Spitale',
   metadataBase: new URL('https://bellacasainspections.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    title: 'Bella Casa Inspections | Wind Mitigation Inspections New Orleans',
-    description: 'Professional wind mitigation inspections in Greater New Orleans. Save thousands on home insurance with our certified inspections.',
+    title: 'Bella Casa Inspections | Wind Mitigation Inspections New Orleans & Northshore',
+    description: 'Professional wind mitigation inspections in Greater New Orleans and Northshore areas. Save thousands on home insurance with our certified inspections.',
     siteName: 'Bella Casa Inspections',
     images: [
       {
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bella Casa Inspections | Wind Mitigation Inspections New Orleans',
-    description: 'Professional wind mitigation inspections in Greater New Orleans. Save thousands on home insurance.',
+    title: 'Bella Casa Inspections | Wind Mitigation Inspections New Orleans & Northshore',
+    description: 'Professional wind mitigation inspections in Greater New Orleans and Northshore areas. Save thousands on home insurance.',
     images: ['/lovable-uploads/3ccedcb6-254b-4d8b-ba65-c9dba2d41af2.png'],
   },
   robots: {

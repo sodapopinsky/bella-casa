@@ -39,7 +39,7 @@ const Inspector = () => {
             </blockquote>
             
             <div className="space-y-4">
-              <h4 className="font-medium">Serving Greater New Orleans area</h4>
+              <h4 className="font-medium">Serving Greater New Orleans and Northshore areas</h4>
               <a href="#contact">
                 <Button className="btn-secondary inline-flex items-center">
                   <Phone size={16} className="mr-2" /> Schedule With Al Today

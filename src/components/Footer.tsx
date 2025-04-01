@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -9,7 +8,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-serif font-bold mb-4">Bella Casa Inspections</h3>
             <p className="text-gray-300 mb-4">
-              Professional wind mitigation inspections serving the Greater New Orleans area.
+              Professional wind mitigation inspections serving the Greater New Orleans and Northshore areas.
               Help Louisiana homeowners save on insurance premiums through detailed assessments.
             </p>
           </div>
@@ -45,7 +44,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li>Phone: (504) 810-9282</li>
               <li>Email: alspitale172@gmail.com</li>
-              <li>Service Area: Greater New Orleans</li>
+              <li>Service Area: Greater New Orleans & Northshore</li>
               <li>License: LHI# 11384</li>
             </ul>
           </div>
