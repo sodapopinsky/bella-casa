@@ -8,7 +8,7 @@ import '@/index.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Bella Casa Wind Guard',
+  title: 'Bella Casa Inspections',
   description: 'Wind mitigation inspections in the Greater New Orleans area',
 };
 

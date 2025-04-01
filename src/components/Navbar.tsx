@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link href="/" className="text-2xl font-serif font-bold text-bella-navy">
             Bella <span className="text-bella-terracotta">Casa</span>
           </Link>
-          <span className="hidden md:inline-block ml-2 text-bella-slate text-sm">Inspections</span>
+          <span className="ml-2 text-bella-slate text-sm">Inspections</span>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
