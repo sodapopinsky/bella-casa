@@ -14,11 +14,11 @@ export async function POST(request: NextRequest) {
     }
     
     const result = await resend.emails.send({
-      from: 'Bella Wind Mitigation <onboarding@resend.dev>', // Use a verified domain in production
+      from: 'Bella Wind Mitigation <contact@bellacasainspections.com>', // Use a verified domain in production
       to: ['alspitale172@gmail.com'],
       bcc: ['nick@theatomicburger.com'],
       subject: 'New Wind Mitigation Inspection Request',
-      replyTo: email,
+      replyTo: 'alspitale172@gmail.com',
       text: `
         Name: ${name}
         Email: ${email}
